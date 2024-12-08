@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: tech_work
+    password: tech_work
+    url: jdbc:mysql://localhost:3306/tech_work
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: never
